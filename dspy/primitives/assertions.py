@@ -13,15 +13,7 @@ def setup_logger():
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)
 
-    fileHandler = logging.FileHandler("assertion.log")
-    fileHandler.setLevel(logging.DEBUG)
-
-    formatter = logging.Formatter(
-        "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    )
-    fileHandler.setFormatter(formatter)
-
-    logger.addHandler(fileHandler)
+    
 
     return logger
 

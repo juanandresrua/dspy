@@ -46,3 +46,5 @@ finetuning_ckpts/
 assertion.log
 *.log
 *.db
+
+.venv

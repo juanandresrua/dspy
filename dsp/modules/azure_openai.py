@@ -4,7 +4,6 @@ import logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(message)s",
-    handlers=[logging.FileHandler("azure_openai_usage.log")],
 )
 
 import functools
